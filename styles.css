@@ -1,5 +1,5 @@
 :root{
-    --primary: hsl(250, 80%, 60%);
+    --primary: hsl(250, 86%, 52%);
     --primary-hover: hsl(250, 80%, 50%);
     --bg-gradient: radial-gradient(circle at top left, hsl(230, 40%, 98%), hsl(230, 40%, 94%));
     --dot-pattern: radial-gradient(circle, hsl(230, 20%, 80%) 1px, transparent 1px);
@@ -99,7 +99,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    background: linear-gradient(to right, var(--primary), hsl(280, 80%, 60%));
+    background: linear-gradient(to right, var(--primary), hsl(128, 81%, 47%));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -134,7 +134,7 @@ input[type="text"] {
 input[type="text"]:focus {
     outline: none;
     border-color: var(--primary);
-    background: #fff;
+    background: #eeeaea;
     box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
 }
 
