@@ -13,6 +13,7 @@ function init(){
     taskInput.addEventListener('keypress',(e)=>{
         if (e.key ==='Enter') addTask();
     });
+    clearCompletedBtn.addEventListener('click', clearCompleted);
 }
 
 function addTask(){
