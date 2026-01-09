@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="app-container">
+        <header>
+            <h1>Task Tracker</h1>
+            <p class="subtitle">Stay organized and productive &#128366</p>
+        </header>
+        <section class="input-section">
+            <div class="input">
+                <input type="text" id="taskInput" placeholder="Add Task" aria-label="New Task">
+                <button id="addTaskBtn" aria-label="Add Task">Add Task</button>
+            </div>
+        </section>
+
+        <section class="list-section">
+            <div class="list-header">
+                <span id="taskCount">0 tasks</span>
+                <button id="clearCompleted" class="text-btn">Clear Completed</button>
+            </div>
+            <ul id="taskList">
+
+            </ul>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
