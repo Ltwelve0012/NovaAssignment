@@ -7,7 +7,7 @@ const taskCount = document.getElementById('taskCount');
 const clearCompletedBtn = document.getElementById('clearCompleted');
 
 function init(){
-    rednerTasks();
+    renderTasks();
 
     addTaskBtn.addEventListener('click',addTask);
     taskInput.addEventListener('keypress',(e)=>{
